@@ -24,9 +24,9 @@ setuptools.setup(
         "Framework :: Wagtail",
     ],
     install_requires=[
-        "wagtail>=4.0,<5.0",
-        "CairoSVG==2.7.0",
-        "Pillow==9.5.0",
+        "wagtail>=6.0,<7.0",
+        "CairoSVG==2.7.1",
+        "Pillow==10.4.0",
     ],
     tests_require=[
         "pytest",
